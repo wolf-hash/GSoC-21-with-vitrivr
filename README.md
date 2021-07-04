@@ -1,4 +1,6 @@
 # GSoC'21 with vitrivr
+This will be a blog with my weekly progress. Here is the index - 
+
 ## About the Organisation - 
 Vitrivr is an open source full-stack content-based multimedia retrieval system with a focus on video. Its modular architecture makes it easy to also search audio, images, 3D Models and structured data. 
 
@@ -12,5 +14,3 @@ I’m Karan Singh, a second year student from Vellore Institute of Technology (V
 I have been fascinated by Deep Learning for the past 5 years but Geoffrey Hinton’s paper on Capsule Networks is what pushed me more towards the computer vision tranche. I am fluent with languages including Python, C/C++, Java, JavaScript and have experience of over two years using Tensorflow, Object Detection API and Django web framework. I have worked on a few similar projects that have required Object Detection and image processing.
 
 I am really looking forward to working with the organisation and also just to be a part of this amazing open source community.
-
-
