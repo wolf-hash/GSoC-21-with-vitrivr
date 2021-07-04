@@ -1,8 +1,16 @@
 # GSoC'21 with vitrivr
 ## About the Organisation - 
-Vitrivr is an open source full-stack content-based multimedia retrieval system with a focus on video. Its modular architecture makes it easy to also search audio, images, 3D Models and structured data.
-## Week #1 
-Hi everyone! I am Karan, a 2nd year student at VIT Vellore. This summer I will be working on a project called *vitrivr reads* which would require me to implemement a feature module within [Cineast](https://github.com/vitrivr/cineast) which will be capable of Scene Text Transcription. The challenge in this project is to implement the model in Java using the Tensorflow Java bindings. 
-My this weeks goal will be to test different available scene text transcription models and then write a standalone Java program which should be able to run inference on the shortlisted model. As my stretch goals I will be working on the data collection and training scripts for optimizing or training the selected model from scratch.
-## What did I do this week?
-We had an introductory meeting to kickoff the coding perios GSoC 2021. I got the opportunity to interact with all the members of the vitrivr team and also got to know other participants working with vitrivr this summer. I had another meeting later this week with just my mentors and I discussed different models that could be viable for this project. We decided that the preferred approach would be for me to first implement the feature module using the Tensorflow java bindings and after that I can focus on training that model to fit our needs. I also started coding before hand to actually make use of this free period. I have implemented the inception net model using the Tensorlfow Java bindings (repo can be found [here](https://github.com/wolf-hash/Tensorflow-Java-Inception-Classifier)). This brings me a step closer to solving the biggest problem of this project which was to run Tensorflow models in Java. 
+Vitrivr is an open source full-stack content-based multimedia retrieval system with a focus on video. Its modular architecture makes it easy to also search audio, images, 3D Models and structured data. 
+
+## About the Project
+Text in a video often conveys information that is not easily expressed otherwise. This project will implement and compare the various existing state-of-the-art scene-text-transcription models and run inference of the best model on Java using legacy Java bindings of Tensorflow.
+I am aiming to start with Attention OCR as the initial implementation. My plan will be to write the code such that it is easier for others to swap in models they would like to use with very minimal code modification. Basically making it modular. Here's the [link](https://docs.google.com/document/d/e/2PACX-1vSUpp3oRv9otAFt3gwrI1uThasbFvO02vWtg80JFpYjmjeabKfVd4-sj1mHACDyxUaKWhpZMjMF1YGt/pub) to my proposal.
+
+## About Me
+I’m Karan Singh, a second year student from Vellore Institute of Technology (Vellore branch) majoring in Computer Science and Engineering. I’m a programmer who devotes to simplifying the process to get things done and providing convenience  service and application to users. I am currently exploring a lot into Deep Learning along with Image Processing. I have a CGPA of 9.7 and currently ranked 3rd in my university in Computer Science.
+
+I have been fascinated by Deep Learning for the past 5 years but Geoffrey Hinton’s paper on Capsule Networks is what pushed me more towards the computer vision tranche. I am fluent with languages including Python, C/C++, Java, JavaScript and have experience of over two years using Tensorflow, Object Detection API and Django web framework. I have worked on a few similar projects that have required Object Detection and image processing.
+
+I am really looking forward to working with the organisation and also just to be a part of this amazing open source community.
+
+
