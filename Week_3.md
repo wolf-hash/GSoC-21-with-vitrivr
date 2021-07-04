@@ -1,0 +1,6 @@
+## Week #3
+### What did I do this week?
+This week turned out to be a little challenging. After running Attention OCR in Java I was confident that the project will now become a little easy since integrating would not be a big deal as mentioned by my mentors. I was in constant touch with the maintainer of the Attention OCR repository and during a short conversation he told me that this will not be able to detect multiple lines since this is only a text recognizer. 
+
+After that I started digging a little deeper and figured out that any proper Scene Text Transcription model consists of two parts: Text detector and Text recognizer. It was my foolishness that I skimmed over this fact earlier on. Now this has made me a little worried since now I will have to run a text detector also and handle for running the recognizer on just the bounding boxes.
+I stumbled upon a stackoverflow answer to run a simple Text detection based on EAST text detection model implemented by OpenCV [here](https://stackoverflow.com/questions/53402064/opencv-east-text-detector-implementation-in-java). This would solve part of my problem but I still would need to handle for the bounding boxes and cropping the images before pushing them into the Text recognizer.
