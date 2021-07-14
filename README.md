@@ -1,5 +1,8 @@
 # GSoC'21 with vitrivr
-This will be a blog with my weekly progress. Here is the index - 
+This will be a blog with my weekly progress. Here is the index -
+- [Week 1](https://github.com/wolf-hash/GSoC-21-with-vitrivr/blob/master/Week_1.md)
+- [Week 2](https://github.com/wolf-hash/GSoC-21-with-vitrivr/blob/master/Week_2.md)
+- [Week 3](https://github.com/wolf-hash/GSoC-21-with-vitrivr/blob/master/Week_3.md)
 
 ## About the Organisation - 
 Vitrivr is an open source full-stack content-based multimedia retrieval system with a focus on video. Its modular architecture makes it easy to also search audio, images, 3D Models and structured data. 
